@@ -1,16 +1,15 @@
 import requests
 from datetime import datetime
 from requests.auth import HTTPBasicAuth
-import os
-import pprint
+
 
 APP_ID = "8cffd0a8"
-NUTRITION_API_KEY = "8314f4f06a83c10a8452000cbe25355c"
+NUTRITION_API_KEY = "YOUR KEY"
 link = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
-USER = "Timur"
-GOOGLE_SHEETY_PASSWORD = "tim987838652whoisurdaddy"
-GOOGLE_SHEET_LINK = "https://api.sheety.co/7f11a38b26220b82b0876ad6e7739c4e/myWorkouts/workouts"
+USER = "YOUR USER ID FOR GOOGLE SHEET"
+GOOGLE_SHEETY_PASSWORD = "YOUR PASSWORD"
+GOOGLE_SHEET_LINK = "LINK TO YOUR PORJECT"
 
 header = {
     "x-app-id" : APP_ID,
