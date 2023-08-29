@@ -3,7 +3,7 @@ from datetime import datetime
 from requests.auth import HTTPBasicAuth
 
 
-APP_ID = "8cffd0a8"
+APP_ID = "YOUR APP_ID"
 NUTRITION_API_KEY = "YOUR KEY"
 link = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
